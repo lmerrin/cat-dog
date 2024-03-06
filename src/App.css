@@ -12,71 +12,12 @@
   height: 100vh; /* Ensure full viewport height coverage */
   font-size: 3rem;
   font-weight: bold;
+  background: rgb(155, 187, 182);
+  background: linear-gradient(
+    90deg,
+    rgba(155, 187, 182, 1) 0%,
+    rgba(255, 255, 255, 0.5125512295081966) 50%,
+    rgba(155, 187, 182, 1) 100%
+  );
 }
 
-.students {
-  background-color: red;
-}
-
-.cats {
-  background-color: green;
-}
-
-.dogs {
-  background-color: blue;
-}
-
-/* 
-.student-card {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 10px;
-  width: 200px;
-}
-
-.student-card h2 {
-  margin: 0;
-  color: #333;
-}
-
-.student-card p {
-  margin: 5px 0;
-  font-size: 14px;
-}
-
-
-.cat-card {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 10px;
-  width: 200px;
-}
-
-.cat-card h2 {
-  margin: 0;
-  color: #333;
-}
-
-.cat-card p {
-  margin: 5px 0;
-  font-size: 14px;
-}
-
-
-.dog-card {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 10px;
-  width: 200px;
-}
-
-.dog-card h2 {
-  margin: 0;
-  color: #333;
-}
-
-.dog-card p {
-  margin: 5px 0;
-  font-size: 14px;
-}
- */
