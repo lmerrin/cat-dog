@@ -4,6 +4,7 @@ import Students from "./Routes/Students/Students";
 import Cats from "./Routes/Cats/Cats";
 import Dogs from "./Routes/Dogs/Dogs";
 import CatDetailsPage from "./Routes/CatDetailsPage";
+import DogDetailsPage from "./Routes/DogDetailsPage";
 
 import "./App.css";
 
@@ -28,6 +29,7 @@ function App() {
         <Route path="/cats" element={<Cats />} />
         <Route path="/dogs" element={<Dogs />} />
         <Route path="/cats/:catId" element={<CatDetailsPage />}/>
+        <Route path="/dogs/:dogId" element={<DogDetailsPage />}/>
       </Routes>
     </>
   );
