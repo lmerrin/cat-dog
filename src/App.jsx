@@ -3,6 +3,7 @@ import { Routes, Route, NavLink } from "react-router-dom";
 import Students from "./Routes/Students/Students";
 import Cats from "./Routes/Cats/Cats";
 import Dogs from "./Routes/Dogs/Dogs";
+import CatDetailsPage from "./Routes/CatDetailsPage";
 
 import "./App.css";
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/" element={<Students />} />
         <Route path="/cats" element={<Cats />} />
         <Route path="/dogs" element={<Dogs />} />
+        <Route path="/cats/:catId" element={<CatDetailsPage />}/>
       </Routes>
     </>
   );
